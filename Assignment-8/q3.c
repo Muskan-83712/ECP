@@ -22,7 +22,6 @@ int main()
 {
 	int i;
 	stud_t *arr = (stud_t *)malloc(3 * sizeof(stud_t));
-	printf("sizeof(arr)=%u",sizeof(arr));
 	accept_arr(&arr[i]);
 	print_arr(&arr[i]);
 
